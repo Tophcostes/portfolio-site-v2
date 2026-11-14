@@ -1,4 +1,4 @@
-# Portfolio Test Site
+# Portfolio Site v2
 
 A personal portfolio website for Christopher Costes — designer of experiences, services, and strategies. Built as a static, dependency-free site using plain HTML, CSS, and vanilla JavaScript. Mirrors the live site at [christophercostes.com](https://christophercostes.com).
 
@@ -122,6 +122,22 @@ npx serve .
 - CSS3 (custom properties, grid, flexbox, media queries)
 - Vanilla JavaScript (no dependencies)
 - Inter via Google Fonts
+
+## Development Tools (Antigravity AI)
+
+This project is developed with [Antigravity](https://antigravity.dev) (Google DeepMind). The following skills are active:
+
+| Skill | Purpose |
+| --- | --- |
+| `chrome-devtools` | Visual inspection, screenshots, DOM auditing, responsive/mobile testing |
+| `a11y-debugging` | Accessibility audits — ARIA labels, contrast, keyboard nav, semantic HTML |
+| `debug-optimize-lcp` | Performance — Largest Contentful Paint and Core Web Vitals |
+
+**How skills are used in this project:**
+- `chrome-devtools` is used to screenshot the local site and compare against `christophercostes.com`
+- `chrome-devtools` is used to test responsive layouts at mobile and tablet breakpoints
+- `a11y-debugging` is used during modernization to catch missing `alt` text, contrast issues, and focus states
+- Run local server first: `python3 -m http.server 8000`, then skills connect to `http://localhost:8000`
 
 ## Contact
 
